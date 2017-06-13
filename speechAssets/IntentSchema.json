@@ -1,0 +1,37 @@
+{
+  "intents": [
+      {
+        "intent": "AboutIntent",  "slots":[]
+      },
+    {
+      "intent": "BuySellSharesIntent",  "slots":[]
+    },
+    {
+      "intent": "GetPortfolioInfoIntent",  "slots":[]
+    },
+    {
+      "intent": "GetCompanyInfoIntent",  "slots":[]
+    },
+    {
+      "intent": "GetLeaderBoardInfoIntent",  "slots":[]
+    },
+    {
+      "intent": "MyNameIsIntent",  "slots":[]
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

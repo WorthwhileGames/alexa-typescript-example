@@ -1,0 +1,5 @@
+{
+    "region": "us-east-1",
+    "cogitoIdentityPoolId": "[your cogito identity pool id]",
+    "appId": "[your skill's app id]"
+}

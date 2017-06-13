@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "BuySellSharesIntent",
+      "samples": [
+        "{command} {amount} shares of {company}"
+      ],
+      "slots": [
+        {
+          "name": "command",
+          "type": "COMMANDS",
+          "samples": []
+        },
+        {
+          "name": "amount",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        },
+        {
+          "name": "company",
+          "type": "AMAZON.Organization",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "GetCompanyInfoIntent",
+      "samples": [
+        "what is the price of {company}",
+        "tell me about {company}",
+        "what is the stock price of {company}",
+        "tell me the stock price of {company}",
+        "what is {company} trading at",
+        "how much is {company}",
+        "how much is {company} trading for"
+      ],
+      "slots": [
+        {
+          "name": "company",
+          "type": "AMAZON.Organization",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "MyNameIsIntent",
+      "samples": [
+        "my name is {firstname}"
+      ],
+      "slots": [
+        {
+          "name": "firstname",
+          "type": "AMAZON.US_FIRST_NAME",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "COMMANDS",
+      "values": [
+        {
+          "name": {
+            "value": "buy"
+          }
+        },
+        {
+          "name": {
+            "value": "sell"
+          }
+        }
+      ]
+    }
+  ]
+}

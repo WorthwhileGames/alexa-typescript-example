@@ -1,0 +1,24 @@
+AboutIntent tell me about market guide
+AboutIntent tell me about this game
+
+GetCompanyInfoIntent what is the price of {company}
+GetCompanyInfoIntent tell me about {company}
+GetCompanyInfoIntent what is the stock price of {company}
+GetCompanyInfoIntent tell me the stock price of {company}
+GetCompanyInfoIntent what is {company} trading at
+GetCompanyInfoIntent how much is {company}
+GetCompanyInfoIntent how much is {company} trading for
+
+GetPortfolioInfoIntent how much {company} do I own
+GetPortfolioInfoIntent tell me about my portfolio
+GetPortfolioInfoIntent
+
+BuySellSharesIntent {command} {company}
+BuySellSharesIntent {command} {amount} shares of {company}
+
+GetLeaderBoardInfoIntent how am I doing
+GetLeaderBoardInfoIntent what is my rank
+GetLeaderBoardInfoIntent what is my score
+GetLeaderBoardInfoIntent am I winning
+
+MyNameIsIntent my name is {firstname}

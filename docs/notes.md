@@ -1,6 +1,6 @@
 ## Alex Skill Development with TypeScript
 
-### JAvaScript Hello World
+### JavaScript Hello World
 ```
 exports.handler = function(event, context) {
  context.succeed('Hello, World!');

@@ -8,11 +8,11 @@
 ### aws-config.json
 - in order to run/test the code:
 - - Copy data/aws-config-template.json and rename it aws-config.json
-- - Edit the appId and cogitoIdentityPoolId fields
+- - Edit the appId and cognitoIdentityPoolId fields
 ```
 {
     "region": "us-east-1",
-    "cogitoIdentityPoolId": "[your cogito identity pool id]",
+    "cognitoIdentityPoolId": "[your cognito identity pool id]",
     "appId": "[your skill's app id]",
     "alexaDynamoDBTableName": "MarketGuideDynamo",
     "lambdaFunctionNameForDBAccess": "MarketGuideLambdaDB"
@@ -29,10 +29,10 @@ AWS.config.update({
     region: "us-east-1"
 });
 ```
-- requires that a Cogito identity pool be specified (not necessary when deployed)
+- requires that a Cognito identity pool be specified (not necessary when deployed)
 ```
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: '[your cogito identity pool id]'
+    IdentityPoolId: '[your cognito identity pool id]'
 });
 ```
 - requires a valid alexa skill/app id

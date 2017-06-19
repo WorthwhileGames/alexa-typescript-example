@@ -1,6 +1,6 @@
 {
     "region": "us-east-1",
-    "cogitoIdentityPoolId": "[your cogito identity pool id]",
+    "cognitoIdentityPoolId": "[your cognito identity pool id]",
     "appId": "[your skill's app id]",
     "alexaDynamoDBTableName": "MarketGuideDynamo",
     "lambdaFunctionNameForDBAccess": "MarketGuideLambdaDB"

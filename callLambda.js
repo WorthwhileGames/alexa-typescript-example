@@ -10,7 +10,7 @@ CognitoCachingCredentialsProvider credentialsProvider = new CognitoCachingCreden
 */
 const config = require('./data/aws-config.json');
 AWS.config.update({region: 'us-east-1', apiVersion: '2015-03-31'});
-AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: config.cogitoIdentityPoolId});
+AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: config.cognitoIdentityPoolId});
 
 var lambda = new AWS.Lambda();
 // create JSON object for parameters for invoking Lambda function
